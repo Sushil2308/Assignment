@@ -1,0 +1,28 @@
+query,section,rank,score,text
+How does the system handle peak load?,strategy_a,1,0.3504,Retrieval-Augmented Generation grounds LLM responses in external documents fetched at inference time. This reduces hallu
+How does the system handle peak load?,strategy_a,2,0.3045,Sentence Transformers produce dense bi-encoder embeddings suitable for semantic search. The all-MiniLM-L6-v2 model balan
+How does the system handle peak load?,strategy_a,3,0.2961,"RAGAS evaluates RAG pipelines across four metrics: Faithfulness, Answer Relevancy, Context Precision, and Context Recall"
+How does the system handle peak load?,strategy_b,1,0.3504,Retrieval-Augmented Generation grounds LLM responses in external documents fetched at inference time. This reduces hallu
+How does the system handle peak load?,strategy_b,2,0.3045,Sentence Transformers produce dense bi-encoder embeddings suitable for semantic search. The all-MiniLM-L6-v2 model balan
+How does the system handle peak load?,strategy_b,3,0.2961,"RAGAS evaluates RAG pipelines across four metrics: Faithfulness, Answer Relevancy, Context Precision, and Context Recall"
+How does the system handle peak load?,graph_final_top3,1,0.3504,Retrieval-Augmented Generation grounds LLM responses in external documents fetched at inference time. This reduces hallu
+How does the system handle peak load?,graph_final_top3,2,0.3045,Sentence Transformers produce dense bi-encoder embeddings suitable for semantic search. The all-MiniLM-L6-v2 model balan
+How does the system handle peak load?,graph_final_top3,3,0.2961,"RAGAS evaluates RAG pipelines across four metrics: Faithfulness, Answer Relevancy, Context Precision, and Context Recall"
+What similarity metric should I use for vector search?,strategy_a,1,0.3327,Retrieval-Augmented Generation grounds LLM responses in external documents fetched at inference time. This reduces hallu
+What similarity metric should I use for vector search?,strategy_a,2,0.3151,"Vertex AI Vector Search, formerly Matching Engine, stores billions of embeddings and serves sub-100 ms queries. Migratin"
+What similarity metric should I use for vector search?,strategy_a,3,0.301,Vector similarity search projects text into high-dimensional embedding space and retrieves nearest neighbours. Cosine si
+What similarity metric should I use for vector search?,strategy_b,1,0.3151,"Vertex AI Vector Search, formerly Matching Engine, stores billions of embeddings and serves sub-100 ms queries. Migratin"
+What similarity metric should I use for vector search?,strategy_b,2,0.301,Vector similarity search projects text into high-dimensional embedding space and retrieves nearest neighbours. Cosine si
+What similarity metric should I use for vector search?,strategy_b,3,0.2999,"RAGAS evaluates RAG pipelines across four metrics: Faithfulness, Answer Relevancy, Context Precision, and Context Recall"
+What similarity metric should I use for vector search?,graph_final_top3,1,0.3327,Retrieval-Augmented Generation grounds LLM responses in external documents fetched at inference time. This reduces hallu
+What similarity metric should I use for vector search?,graph_final_top3,2,0.3151,"Vertex AI Vector Search, formerly Matching Engine, stores billions of embeddings and serves sub-100 ms queries. Migratin"
+What similarity metric should I use for vector search?,graph_final_top3,3,0.301,Vector similarity search projects text into high-dimensional embedding space and retrieves nearest neighbours. Cosine si
+How does retrieval augmented generation work?,strategy_a,1,0.2954,Retrieval-Augmented Generation grounds LLM responses in external documents fetched at inference time. This reduces hallu
+How does retrieval augmented generation work?,strategy_a,2,0.284,FAISS provides approximate nearest neighbour search using inverted file indices and product quantisation. For small corp
+How does retrieval augmented generation work?,strategy_a,3,0.2832,Sentence Transformers produce dense bi-encoder embeddings suitable for semantic search. The all-MiniLM-L6-v2 model balan
+How does retrieval augmented generation work?,strategy_b,1,0.2954,Retrieval-Augmented Generation grounds LLM responses in external documents fetched at inference time. This reduces hallu
+How does retrieval augmented generation work?,strategy_b,2,0.284,FAISS provides approximate nearest neighbour search using inverted file indices and product quantisation. For small corp
+How does retrieval augmented generation work?,strategy_b,3,0.2832,Sentence Transformers produce dense bi-encoder embeddings suitable for semantic search. The all-MiniLM-L6-v2 model balan
+How does retrieval augmented generation work?,graph_final_top3,1,0.2954,Retrieval-Augmented Generation grounds LLM responses in external documents fetched at inference time. This reduces hallu
+How does retrieval augmented generation work?,graph_final_top3,2,0.284,FAISS provides approximate nearest neighbour search using inverted file indices and product quantisation. For small corp
+How does retrieval augmented generation work?,graph_final_top3,3,0.2832,Sentence Transformers produce dense bi-encoder embeddings suitable for semantic search. The all-MiniLM-L6-v2 model balan
